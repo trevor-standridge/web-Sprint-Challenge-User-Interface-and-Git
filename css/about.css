@@ -56,12 +56,16 @@ nav a {
 }
 
 .banner-about-img {
-	padding-top: 50px;
+	width: 100%;
+	padding-top: 80px;
+	align-items: center;
 }
 
 .top-content {
-	width: 80%;
-	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
     border-bottom: 1px dashed black;
 }
 
@@ -73,8 +77,22 @@ nav a {
 
 .middle-content .tiles {
 	width: 36%;
-	padding: 20px;
-    border-bottom: 1px dashed black;
+	padding: 15px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.text-container {
+    width: 80%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 button {
@@ -92,7 +110,6 @@ h2 {
 
 p {
 	line-height: 1.4;
-	padding-bottom: 20px;
 }
 
 .container-about-page {
@@ -100,6 +117,20 @@ p {
 	margin: 0 auto;
 }
 
-.tiles {
-	width: 100%;
+footer {
+    width: 80%;
+    background-color: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
