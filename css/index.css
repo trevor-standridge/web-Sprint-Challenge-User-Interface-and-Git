@@ -56,6 +56,20 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    color: black;   
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
