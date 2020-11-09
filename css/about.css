@@ -23,3 +23,83 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+body {
+	line-height: 1;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.banner-about {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	padding: 20px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+	color: black;
+}
+
+.banner-about-img {
+	padding-top: 50px;
+}
+
+.top-content {
+	width: 80%;
+	padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.middle-content .tiles {
+	width: 36%;
+	padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 18px;
+	padding: 20px 0px;
+}
+
+p {
+	line-height: 1.4;
+	padding-bottom: 20px;
+}
+
+.container-about-page {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tiles {
+	width: 100%;
+}
